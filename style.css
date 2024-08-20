@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-image: url("naya.jpg");
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    background-color: bisque;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.8);
+    font-size: 6vmin;
+    scale: 0.7;
+}
+
+#reset{
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    background: linear-gradient(to right   , rgb(25, 12, 174)  ,rgb(232, 159, 171));
+
+    color: whitesmoke;
+}
+
+
+#msg{
+    /* color:palevioletred; */
+    background: linear-gradient(to right   ,green, rgb(94, 94, 227) ,red ,pink,orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 10vmin;
+}
+
+.msgg{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;;
+}
+
+h1{
+    background: linear-gradient(to right , red , rgb(94, 94, 227) ,pink , orange);
+    -webkit-background-clip: text;
+    color: transparent;
+}
